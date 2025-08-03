@@ -1,6 +1,6 @@
 # week_2_questions
 <bR>
-This repository contains two java programs that demonstrate basic operations on arrays:
+This repository contains two C programs that demonstrate basic operations on arrays:
 <br>
     1: Traversing an array and checking whether elements are positive, negative, or zero
 <br>
@@ -14,7 +14,7 @@ This program demonstrates how to:
 - Accept user input to fill a static array.
 - Traverse through the array elements.
 - Identify whether each element is **Positive**, **Negative**, or **Zero**.
-- Display the result with corresponding index positions.
+- Display the result with corsresponding index positions.
 
 ### Key Concepts Used:
 - Arrays

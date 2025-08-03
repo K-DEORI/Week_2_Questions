@@ -1,35 +1,27 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+#include <stdio.h>
 
+int main() {
+    int n, element;
 
-public class Inseration_at_the_end_of_an_array {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
 
-        ArrayList<Integer> arrList = new ArrayList<>();
+    int arr[n + 1];  // Allocate space for one extra element
 
-        System.out.print("Enter number of elements: ");
-        int n = sc.nextInt();
-
-        
-        System.out.println("Enter " + n + " elements:");         // Input existing elements
-        for (int i = 0; i < n; i++) {
-            System.out.print("Element " + (i + 1) + ": ");
-            arrList.add(sc.nextInt());
-        }
-
-       
-        System.out.print("Enter element to insert at end: ");   // Insert new element at end
-        int element = sc.nextInt();
-        arrList.add(element);                                    // ArrayList automatically handles insertion
-
-        
-        System.out.println("\nArrayList after insertion:");    // Display ArrayList
-        for (int i = 0; i < arrList.size(); i++) {
-            System.out.print(arrList.get(i) + " ");
-        }
-
-        sc.close();
+    printf("Enter %d elements:\n", n);  // Input existing elements
+    for (int i = 0; i < n; i++) {
+        printf("Element %d: ", i + 1);
+        scanf("%d", &arr[i]);
     }
-}
 
+    printf("Enter element to insert at end: ");  // Input element to insert
+    scanf("%d", &element);
+    arr[n] = element;  // Insert at the next position (end)
+
+    printf("\nArray after insertion:\n");  // Display array after insertion
+    for (int i = 0; i <= n; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
