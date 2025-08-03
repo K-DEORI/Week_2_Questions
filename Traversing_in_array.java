@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 
-public class Transversing_in_array {
+public class Traversing_in_array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
