@@ -9,9 +9,6 @@ This repository contains two java programs that demonstrate basic operations on 
 
 ## 1. Traversing an Array and Checking Elements
 
-**File:** `TraversingInArray.java`  
-*(Note: Correct spelling from "Transversing" to "Traversing" is recommended)*
-
 ### Description:
 This program demonstrates how to:
 - Accept user input to fill a static array.
