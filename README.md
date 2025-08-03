@@ -24,6 +24,23 @@ This program demonstrates how to:
 - For loop traversal
 - Conditional Statements (`if-else`)
 - Scanner for user input
+
+## 2. Insertion at the End of an Array using ArrayList
+
+**File:** `InsertionAtEndOfArrayList.java`  
+*(Note: Correct spelling from "Inseration" to "Insertion" is recommended)*
+
+### Description:
+This program shows how to:
+- Dynamically insert elements into an `ArrayList`.
+- Insert a new element at the **end** of the list.
+- Display the final list after insertion.
+
+### Key Concepts Used:
+- `ArrayList` from `java.util`
+- Dynamic Array handling
+- Scanner for user input
+- For loop for traversing `ArrayList`
 # Submitted by:
 <br>
 Khiranjan Deori, ET24BTHCS055, 3rd sem-A. 
